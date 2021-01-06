@@ -7,10 +7,10 @@
                     details does not contain zipcode in pos.""",
     'author': "Aktiv software",
     'website': "http://www.aktivsoftware.com",
-    'category': 'Uncategorized',
+    'category': 'point of sale',
     'version': '13.0.1.0.0',
-    'depends': ['point_of_sale'],
+    'depends': ['base', 'point_of_sale'],
     'data': [
-
+        'views/assets.xml',
     ],
 }
